@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
 
 /* The body class targets the <body> tag in your html file */
 body {
     background-color: rgb(227, 219, 216);
-    font-family: "Karla", sans-serif;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
+    color: #88676f;
 }
 
 /* The following classes are used to style the corresponding html classes */
 .menu {
-    padding: 40px;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 16px;
+    padding: 10px;
+    background-color: #ffeaf3;
+    font-size: 24px;
     position: sticky;
     top: 0;
     display: flex;
@@ -21,9 +23,35 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fe309b;
+}
+
+#menu-home {
+    color: #fe309b;
 }
 
 .content {
     padding: 40px;
+}
+
+.splash {
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+    gap: 50px;
+}
+
+#splash-intro {
+    color: #fe309b;
+}
+
+.projects {
+    display: flex;
+    gap: 24px;
+}
+
+.projects .btn {
+    background: #fe309b;
+    border: none;
+    border-radius: 16px;
 }
